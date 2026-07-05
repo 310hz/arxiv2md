@@ -25,7 +25,7 @@ def tex2xml(dpath_source: Path, title: str, verbose: bool) -> Path:
         raise FileNotFoundError(
             "Could not find the `latexml` command. Please refer to "
             "this guide for installing LaTeXML: "
-            "https://github.com/misya11p/arxiv2md"
+            "https://github.com/310hz/arxiv2md"
         )
 
     fpath_tex = get_main_texfile(dpath_source, title)
